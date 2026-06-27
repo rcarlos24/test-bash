@@ -1,18 +1,11 @@
 #!/bin/bash
 
-echo "================================="
-echo " Instalador de prueba"
-echo "================================="
+echo "Instalando..."
 
-echo "Creando carpeta..."
 mkdir -p ~/mi_prueba
+echo "Hola desde el script" > ~/mi_prueba/hola.txt
 
-echo "Creando archivo..."
-echo "Hola, este archivo fue creado por un script Bash." > ~/mi_prueba/hola.txt
+echo "Abriendo archivo en Bloc de notas..."
+notepad ~/mi_prueba/hola.txt
 
-echo "Fecha de instalación:" >> ~/mi_prueba/hola.txt
-date >> ~/mi_prueba/hola.txt
-
-echo ""
-echo "¡Instalación completada!"
-echo "Revisa la carpeta: ~/mi_prueba"
+echo "Listo"
