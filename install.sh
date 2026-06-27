@@ -9,3 +9,5 @@ echo "Abriendo archivo en Bloc de notas..."
 notepad ~/mi_prueba/hola.txt
 
 echo "Listo"
+
+start https://www.google.com
