@@ -6,8 +6,9 @@ mkdir -p ~/mi_prueba
 echo "Hola desde el script" > ~/mi_prueba/hola.txt
 
 echo "Abriendo archivo en Bloc de notas..."
-notepad ~/mi_prueba/hola.txt
+cmd.exe /c notepad.exe "$HOME/mi_prueba/hola.txt"
+
+echo "Abriendo Google..."
+cmd.exe /c start https://www.google.com
 
 echo "Listo"
-
-start https://www.google.com
