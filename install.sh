@@ -9,6 +9,6 @@ echo "Abriendo archivo en Bloc de notas..."
 cmd.exe /c notepad.exe "$HOME/mi_prueba/hola.txt"
 
 echo "Abriendo Google..."
-cmd.exe /c start https://www.google.com
+cmd.exe /c start https://fe-pelotea-pe-sigma.vercel.app/login
 
 echo "Listo"
